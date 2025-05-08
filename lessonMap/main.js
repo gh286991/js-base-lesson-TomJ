@@ -30,6 +30,7 @@ async function loadLearningMap() {
         const blockEl = document.createElement('article');
         blockEl.className = 'small-block';
         blockEl.textContent = block.title;
+        blockEl.id = block.title;
         leftRow.appendChild(blockEl);
       });
       leftSection.appendChild(leftRow);
@@ -48,6 +49,7 @@ async function loadLearningMap() {
         const blockEl = document.createElement('article');
         blockEl.className = 'small-block';
         blockEl.textContent = block.title;
+        blockEl.id = block.title;
         rightRow.appendChild(blockEl);
       });
       rightSection.appendChild(rightRow);
@@ -105,6 +107,7 @@ async function loadLearningMap() {
           blockEl = document.createElement('article');
           blockEl.className = 'small-block';
           blockEl.textContent = block.title;
+          blockEl.id = block.title;
         }
         row.appendChild(blockEl);
       });
@@ -121,4 +124,16 @@ async function loadLearningMap() {
   });
 }
 
-window.addEventListener('DOMContentLoaded', loadLearningMap); 
+window.addEventListener('DOMContentLoaded', async () => {
+  await loadLearningMap();
+
+  const urlParams = new URLSearchParams(window.location.search);
+  const lesson = urlParams.get('lesson');
+
+  if (lesson) {
+    const block = document.getElementById(lesson);
+    if (block) {
+      block.style.border = '2px solid red';
+    }
+  }
+});
