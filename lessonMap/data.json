@@ -1,0 +1,63 @@
+{
+	"stages": [
+		{
+			"id": "setup",
+			"title": "環境設置與基礎",
+			"blocks": [
+				{
+					"title": "Hello Word (JS-01)",
+					"items": ["Codespace 使用", "執行 javascript 程式碼"],
+					"link": "#",
+					"linkText": "JS教學-1程式基礎與環境安裝上手（使用 GitHub Codespaces 實戰的第一行程式碼）"
+				},
+				{
+					"title": "Html 執行與 Copilot 使用",
+					"items": ["Copilot 使用", "Live server 執行網頁開發"],
+					"link": "#",
+					"linkText": "JS教學-2使用Copilot建立你的第一個網頁，快Hello World寫法快速上手"
+				}
+			]
+		},
+		{
+			"id": "web-basic",
+			"title": "網頁基礎概念",
+			"blocks": [
+				{ "title": "Html,CSS,Javascript 關係說明" },
+				{ "title": "CSS 實作練習" },
+				{ "title": "JavaScript 實作" }
+			]
+		},
+		{
+			"id": "syntax",
+			"title": "基礎語法",
+			"blocks": [
+				{
+					"id": "syntax",
+					"title": "基礎語法",
+					"blocks": [
+						{ "title": "變數介紹與 let/const 差異" },
+						{ "title": "資料型別概觀" },
+						{ "title": "運算子應用（加減乘除、比較、邏輯）" },
+						{ "title": "if/else 條件控制" },
+						{ "title": "迴圈與資料操作" },
+						{ "title": "函式" },
+						{ "title": "作用域" },
+						{ "title": "邏輯子句應用（加減乘除、比較、邏輯）" },
+						{ "title": "結構與其他撰寫技巧" }
+					]
+				},
+				{
+					"id": "data-ops",
+					"title": "資料與操作",
+					"blocks": [
+						{ "title": "陣列" },
+						{ "title": "物件" },
+						{ "title": "if / else 條件控制" },
+						{ "title": "switch" },
+						{ "title": "迴圈與陣列操作" }
+					]
+				}
+			]
+		}
+	]
+}
