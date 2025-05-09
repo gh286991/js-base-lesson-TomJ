@@ -8,7 +8,6 @@ async function loadLearningMap() {
   data.stages.forEach((stage, idx) => {
     // 若 blocks 裡有兩個 block（如基礎語法、資料與操作），就並排顯示
     if (
-      stage.id === 'syntax' &&
       Array.isArray(stage.blocks) &&
       stage.blocks.length === 2 &&
       Array.isArray(stage.blocks[0].blocks) &&

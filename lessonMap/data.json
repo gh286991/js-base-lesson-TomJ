@@ -40,8 +40,6 @@
 			]
 		},
 		{
-			"id": "syntax",
-			"title": "",
 			"blocks": [
 				{
 					"id": "syntax",
@@ -97,23 +95,42 @@
 			]
 		},
 		{
-			"id": "dom",
-			"title": "瀏覽器互動",
 			"blocks": [
 				{
-					"title": "DOM 操作"
+					"id": "dom",
+					"title": "瀏覽器互動",
+					"blocks": [
+						{
+							"title": "DOM 操作"
+						},
+						{
+							"title": "搜尋DOM"
+						},
+						{
+							"title": "localStorage"
+						},
+						{
+							"title": "事件監聽與互動"
+						},
+						{
+							"title": "表單與驗證"
+						}
+					]
 				},
 				{
-					"title": "搜尋DOM"
-				},
-				{
-					"title": "localStorage"
-				},
-				{
-					"title": "事件監聽與互動"
-				},
-				{
-					"title": "表單與驗證"
+					"id": "canvas",
+					"title": "畫布",
+					"blocks": [
+						{
+							"title": "Canvas"
+						},
+						{
+							"title": "SVG"
+						},
+						{
+							"title": "動畫"
+						}
+					]
 				}
 			]
 		},
@@ -126,18 +143,52 @@
 				},
 				{
 					"title": "Promise 與 async/await"
+				},
+				{
+					"title": "模組化思維與檔案拆分"
 				}
 			]
 		},
 		{
-			"id": "Exercise",
-			"title": "實作",
 			"blocks": [
 				{
-					"title": "實作專案一"
+					"id": "Exercise",
+					"title": "實作",
+					"blocks": [
+						{
+							"title": "實作專案一"
+						},
+						{
+							"title": "實作專案二"
+						}
+					]
 				},
 				{
-					"title": "實作專案二"
+					"id": "game",
+					"title": "遊戲實作",
+					"blocks": [
+						{
+							"title": "小恐龍遊戲"
+						},
+						{
+							"title": "貪食蛇"
+						},
+						{
+							"title": "飛機射擊遊戲"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": "next",
+			"title": "進階學習",
+			"blocks": [
+				{
+					"title": "Backend 後端開發"
+				},
+				{
+					"title": "React 框架"
 				}
 			]
 		}
